@@ -221,3 +221,42 @@ header .logo_wrapper .toggle{
 .client .imgBx img:hover{
     opacity: 1;
 }
+
+/* ************************************** */
+/*    STYLING THE Testimonial SECTION    */
+/* ************************************** */
+
+.testimonial{
+    background: #12222d;
+    position: relative;
+    padding: 100px;
+    text-align: center;
+}
+
+.testimonial .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonial .container .contentBox{
+    background-color: #fff;
+    padding: 50px 60px;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.testimonial .container .contentBox p{
+    font-style: italic;
+}
+
+.testimonial .container .contentBox h3{
+    width: 100%;
+    text-align: end;
+    color: #3475ca;
+}
