@@ -392,6 +392,186 @@ ul li a{
     margin: 0 10px;
 }
 
-ul li a{
+ul li a img{
     filter: invert(1);
+    max-width: 20px;
+}
+
+@media (max-width: 915px) {
+    header .logo_wrapper .logo{
+        font-size: 30px;
+    }
+
+    header .content p{
+        padding: 20px;
+    }
+
+    .about{
+        flex-direction: column;
+        
+    }
+
+    .about .contentBx, 
+    .about .imgBx{
+        width: 100%;
+        min-height: 600px;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+
+    .services .heading{
+        font-weight: 600;
+        font-size: 36px;
+    }
+
+    .services .text{
+        font-size: 18px;
+    }
+
+    .services .container{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .services .container .serviceBx{
+        margin-bottom: 20px;
+    }
+
+    .technology{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .technology .contentBx{
+        text-align: center;
+    }
+
+    .technology .text{
+        font-size: 18px;
+        margin-right: 0px;
+    }
+
+    .technology .imgBx img{
+       margin-top: 80px;
+    }
+
+    .client .imgBx img{
+        max-width: 120px;
+    }
+
+    .testimonial .container .contentBox{
+        padding: 70px 80px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial .container .contentBox:nth-child(2){
+        margin-bottom: -20px;
+    }
+
+    .user_space{
+        flex-direction: column;
+    }
+
+    .contact .user_space .contentBx{
+        padding: 100px 200px;
+    }
+
+    .contact .user_space .imgBx2,
+    .contact .user_space .contentBx{
+        width: 100%;
+        min-height: 600px;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    footer ul{
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 675px) {
+    header .logo_wrapper .logo{
+        font-size: 20px;
+    }
+
+    .heading{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    header .content p{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+
+    .about .contentBx{
+        padding: 50px;
+    }
+
+    .services{
+        padding: 70px;
+    }
+
+    .services .heading{
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .services .text{
+        font-size: 15px;
+    }
+
+    .services .container .serviceBx{
+        margin-bottom: 20px;
+    }
+
+    .technology{
+        padding: 50px;
+        padding-top: 300px;
+    }
+
+    .client{
+        padding: 50px;
+    }
+
+    .client .imgBx img{
+        max-width: 100px;
+    }
+
+    .testimonial{
+        padding: 50px;
+    }
+
+    .testimonial .container .contentBox{
+        padding: 30px 40px;
+        margin-bottom: 20px;
+    }
+
+    .contact .content{
+        padding: 50px;
+    }
+    
+    .contact .user_space .contentBx{
+        padding: 50px 80px;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+
+    footer ul{
+        padding-bottom: 7px;
+    }
+
+    footer .text{
+        font-size: 16px;
+    }
 }
